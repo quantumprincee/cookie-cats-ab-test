@@ -33,11 +33,11 @@
 3. Выброс в раундах. Игрок `6390605` в контроле сыграл 49 854 раунда. Среднее из-за него 52.5 против 51.3. Без него средние почти сходятся: 51.3 и 51.3. Медиана честнее: 17 против 16 раундов.
 4. Сравнение долей z-тестом и 95% ДИ на разнице.
 
-Разбор лежит в `notebooks/01_cookie_cats_ab.ipynb`. Стек: Pandas, NumPy, Matplotlib, Seaborn.
+Разбор лежит в `cookie_cats_ab.ipynb`. Стек: Pandas, NumPy, Matplotlib, Seaborn.
 
 ```bash
 pip install -r requirements.txt
-jupyter notebook notebooks/01_cookie_cats_ab.ipynb
+jupyter notebook cookie_cats_ab.ipynb
 ```
 
 ## Результат
@@ -60,7 +60,7 @@ jupyter notebook notebooks/01_cookie_cats_ab.ipynb
 
 ## Как повторить
 
-Источник: [Kaggle, Mobile Games A/B Testing](https://www.kaggle.com/datasets/yufengsui/mobile-games-ab-testing). Копия лежит в `data/cookie_cats.csv`.
+Источник: [Kaggle, Mobile Games A/B Testing](https://www.kaggle.com/datasets/yufengsui/mobile-games-ab-testing). Копия лежит в `cookie_cats.csv`.
 
 ```text
 cookie-cats-ab-test/
