@@ -52,8 +52,6 @@ jupyter notebook notebooks/01_cookie_cats_ab.ipynb
 
 Срез «сыграл хотя бы 30 раундов» выглядит так, будто эффект сидит среди дошедших до ворот (удержание дня 7 около 43.9% и 43.0%). Это разведка, не подтверждение: число раундов само зависит от ворот.
 
-![Раунды без выброса](figures/rounds_boxplot.png)
-
 ## Чего в датасете нет
 
 - Денег: нет выручки, рекламы и покупок, поэтому «ворота на 40 монетизируют лучше» отсюда не следует.
@@ -61,6 +59,8 @@ jupyter notebook notebooks/01_cookie_cats_ab.ipynb
 - Дневного лога, раннюю остановку разобрать нельзя. Файл уже агрегирован на игрока.
 
 ## Как повторить
+
+Источник: [Kaggle, Mobile Games A/B Testing](https://www.kaggle.com/datasets/yufengsui/mobile-games-ab-testing). Копия лежит в `data/cookie_cats.csv`.
 
 ```text
 cookie-cats-ab-test/
