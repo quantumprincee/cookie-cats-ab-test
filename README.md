@@ -64,10 +64,8 @@ jupyter notebook notebooks/01_cookie_cats_ab.ipynb
 
 ```text
 cookie-cats-ab-test/
-├── data/cookie_cats.csv
-├── figures/retention_by_gate.png
-├── figures/rounds_boxplot.png
-├── notebooks/01_cookie_cats_ab.ipynb
-├── requirements.txt
-└── README.md
+├── README.md
+├── cookie_cats.csv
+├── cookie_cats_ab.ipynb
+└── requirements.txt 
 ```
